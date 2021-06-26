@@ -1,0 +1,10 @@
+/* 
+ - div{} / <div /> tous les éléments div appliqueront le code
+ - #demo{} / <div id='demo' /> 
+ - .demo{} / <div class='demo'/> 
+*/
+
+
+#toto{
+    border: 10px solid red;
+}

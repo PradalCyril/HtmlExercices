@@ -18,25 +18,20 @@ body{
 }
 
 .no-touch-container {
-    padding: 8px;
+    position: relative;
+    padding: 25px 0 25px 30px;
+    text-align: center;
     font-family: 'Architects Daughter', cursive;
 }
 
-.title{
-    font-size: 32px;
-    font-weight: 2000;
-    font-family: 'Architects Daughter', cursive;
+.background-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
-.text{
-    margin: 0px;
-}
-
-.list-text{
-    margin:16px 0 0 0; 
-}
-.ingrediant-list{
-    margin: 0;
-    list-style: none;
-    padding: 0 8px;
+.front-image{
+    width: 350px;
+    height: 275px;
 }
